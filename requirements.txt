@@ -1,0 +1,12 @@
+# Packages used by the live system (Python 3.12, Windows 11, CPU).
+# You already have: insightface, onnxruntime, opencv-python, numpy.
+numpy
+opencv-python
+insightface
+onnxruntime
+requests
+python-dotenv
+
+# Only needed ONCE, for convert_minifasnet_to_onnx.py (not for the live system):
+# torch
+# onnx
